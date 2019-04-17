@@ -3,6 +3,8 @@
 // This class is generated. Do not modify directly!
 package org.assertj.androidx.gridlayout.api;
 
+import org.assertj.androidx.gridlayout.api.widget.GridLayoutAssert;
+
 /** Assertions for testing Android classes. */
 @SuppressWarnings("deprecation")
 public final class Assertions {
