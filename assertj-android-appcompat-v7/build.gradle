@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-  implementation project(':assertj-android')
+  implementation project(':assertj-androidx')
   implementation rootProject.ext.androidxAppCompat
 }
 

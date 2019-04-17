@@ -1,6 +1,6 @@
 rootProject.name = 'assertj-androidx-root'
 
-include ':assertj-android'
+include ':assertj-androidx'
 include ':assertj-android-appcompat-v7'
 include ':assertj-android-cardview-v7'
 include ':assertj-android-design'
