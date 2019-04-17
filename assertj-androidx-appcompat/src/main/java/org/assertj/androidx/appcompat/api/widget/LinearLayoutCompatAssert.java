@@ -1,4 +1,4 @@
-package org.assertj.androidx.appcompat.v7.api.widget;
+package org.assertj.androidx.appcompat.api.widget;
 
 
 import androidx.appcompat.widget.LinearLayoutCompat;

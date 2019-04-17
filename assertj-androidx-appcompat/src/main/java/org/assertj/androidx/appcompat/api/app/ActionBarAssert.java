@@ -1,4 +1,4 @@
-package org.assertj.androidx.appcompat.v7.api.app;
+package org.assertj.androidx.appcompat.api.app;
 
 import org.assertj.core.api.AbstractAssert;
 

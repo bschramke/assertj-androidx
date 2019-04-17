@@ -1,4 +1,4 @@
-package org.assertj.androidx.appcompat.v7.api.app;
+package org.assertj.androidx.appcompat.api.app;
 
 import androidx.annotation.IntDef;
 import androidx.appcompat.app.ActionBar;

@@ -1,4 +1,4 @@
-package org.assertj.androidx.appcompat.v7.api.widget;
+package org.assertj.androidx.appcompat.api.widget;
 
 import android.annotation.TargetApi;
 import org.assertj.androidx.api.view.AbstractViewGroupAssert;
