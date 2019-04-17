@@ -1,6 +1,7 @@
 package org.assertj.android.appcompat.v7.api.widget;
 
-import android.support.v7.widget.LinearLayoutCompat;
+
+import androidx.appcompat.widget.LinearLayoutCompat;
 
 /**
  * Assertions for {@link LinearLayoutCompat} instances.

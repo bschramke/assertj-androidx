@@ -1,10 +1,11 @@
 package org.assertj.android.appcompat.v7.api.widget;
 
 import android.annotation.TargetApi;
-import android.support.v7.widget.LinearLayoutCompat;
 import org.assertj.android.api.view.AbstractViewGroupAssert;
 import org.assertj.android.api.widget.LinearLayoutOrientation;
 import org.assertj.android.api.widget.LinearLayoutShowDividers;
+
+import androidx.appcompat.widget.LinearLayoutCompat;
 
 import static android.os.Build.VERSION_CODES.HONEYCOMB;
 import static android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH;

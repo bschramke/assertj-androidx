@@ -1,8 +1,8 @@
 // Copyright 2013 Square, Inc.
 package org.assertj.android.appcompat.v7.api.widget;
 
-import android.support.v4.widget.CursorAdapter;
-import android.support.v7.widget.SearchView;
+import androidx.appcompat.widget.SearchView;
+import androidx.cursoradapter.widget.CursorAdapter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

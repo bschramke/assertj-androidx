@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-  implementation rootProject.ext.assertj
+  api rootProject.ext.assertj
   implementation rootProject.ext.androidxAnnotation
 }
 

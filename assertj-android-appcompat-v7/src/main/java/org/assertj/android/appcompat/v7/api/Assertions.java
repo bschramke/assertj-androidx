@@ -7,22 +7,22 @@ package org.assertj.android.appcompat.v7.api;
 @SuppressWarnings("deprecation")
 public final class Assertions {
   public static org.assertj.android.appcompat.v7.api.app.ActionBarAssert assertThat(
-      android.support.v7.app.ActionBar actual) {
+      androidx.appcompat.app.ActionBar actual) {
     return new org.assertj.android.appcompat.v7.api.app.ActionBarAssert(actual);
   }
 
   public static org.assertj.android.appcompat.v7.api.view.ActionModeAssert assertThat(
-      android.support.v7.view.ActionMode actual) {
+      androidx.appcompat.view.ActionMode actual) {
     return new org.assertj.android.appcompat.v7.api.view.ActionModeAssert(actual);
   }
 
   public static org.assertj.android.appcompat.v7.api.widget.LinearLayoutCompatAssert assertThat(
-      android.support.v7.widget.LinearLayoutCompat actual) {
+      androidx.appcompat.widget.LinearLayoutCompat actual) {
     return new org.assertj.android.appcompat.v7.api.widget.LinearLayoutCompatAssert(actual);
   }
 
   public static org.assertj.android.appcompat.v7.api.widget.SearchViewAssert assertThat(
-      android.support.v7.widget.SearchView actual) {
+      androidx.appcompat.widget.SearchView actual) {
     return new org.assertj.android.appcompat.v7.api.widget.SearchViewAssert(actual);
   }
 

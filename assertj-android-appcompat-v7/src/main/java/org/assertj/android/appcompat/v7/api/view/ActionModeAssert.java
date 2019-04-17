@@ -1,8 +1,9 @@
 package org.assertj.android.appcompat.v7.api.view;
 
-import android.support.v7.view.ActionMode;
 import android.view.View;
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.appcompat.view.ActionMode;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

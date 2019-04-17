@@ -1,7 +1,7 @@
 package org.assertj.android.appcompat.v7.api.app;
 
-import android.support.annotation.IntDef;
-import android.support.v7.app.ActionBar;
+import androidx.annotation.IntDef;
+import androidx.appcompat.app.ActionBar;
 import java.lang.annotation.Retention;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;

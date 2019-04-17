@@ -1,16 +1,17 @@
 package org.assertj.android.appcompat.v7.api.app;
 
-import android.support.v7.app.ActionBar;
 import org.assertj.core.api.AbstractAssert;
 
-import static android.support.v7.app.ActionBar.DISPLAY_HOME_AS_UP;
-import static android.support.v7.app.ActionBar.DISPLAY_SHOW_CUSTOM;
-import static android.support.v7.app.ActionBar.DISPLAY_SHOW_HOME;
-import static android.support.v7.app.ActionBar.DISPLAY_SHOW_TITLE;
-import static android.support.v7.app.ActionBar.DISPLAY_USE_LOGO;
-import static android.support.v7.app.ActionBar.NAVIGATION_MODE_LIST;
-import static android.support.v7.app.ActionBar.NAVIGATION_MODE_STANDARD;
-import static android.support.v7.app.ActionBar.NAVIGATION_MODE_TABS;
+import androidx.appcompat.app.ActionBar;
+
+import static androidx.appcompat.app.ActionBar.DISPLAY_HOME_AS_UP;
+import static androidx.appcompat.app.ActionBar.DISPLAY_SHOW_CUSTOM;
+import static androidx.appcompat.app.ActionBar.DISPLAY_SHOW_HOME;
+import static androidx.appcompat.app.ActionBar.DISPLAY_SHOW_TITLE;
+import static androidx.appcompat.app.ActionBar.DISPLAY_USE_LOGO;
+import static androidx.appcompat.app.ActionBar.NAVIGATION_MODE_LIST;
+import static androidx.appcompat.app.ActionBar.NAVIGATION_MODE_STANDARD;
+import static androidx.appcompat.app.ActionBar.NAVIGATION_MODE_TABS;
 import static org.assertj.android.internal.BitmaskUtils.buildBitMaskString;
 import static org.assertj.android.internal.BitmaskUtils.buildNamedValueString;
 import static org.assertj.core.api.Assertions.assertThat;
