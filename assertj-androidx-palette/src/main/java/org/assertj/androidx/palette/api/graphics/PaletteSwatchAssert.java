@@ -1,4 +1,4 @@
-package org.assertj.androidx.palette.v7.api.graphics;
+package org.assertj.androidx.palette.api.graphics;
 
 
 import org.assertj.core.api.AbstractAssert;

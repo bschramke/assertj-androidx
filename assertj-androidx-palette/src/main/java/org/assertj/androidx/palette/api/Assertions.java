@@ -1,19 +1,19 @@
 // Copyright 2015 Square, Inc.
 //
 // This class is generated. Do not modify directly!
-package org.assertj.androidx.palette.v7.api;
+package org.assertj.androidx.palette.api;
 
 /** Assertions for testing Android classes. */
 @SuppressWarnings("deprecation")
 public final class Assertions {
-  public static org.assertj.androidx.palette.v7.api.graphics.PaletteAssert assertThat(
+  public static org.assertj.androidx.palette.api.graphics.PaletteAssert assertThat(
           androidx.palette.graphics.Palette actual) {
-    return new org.assertj.androidx.palette.v7.api.graphics.PaletteAssert(actual);
+    return new org.assertj.androidx.palette.api.graphics.PaletteAssert(actual);
   }
 
-  public static org.assertj.androidx.palette.v7.api.graphics.PaletteSwatchAssert assertThat(
+  public static org.assertj.androidx.palette.api.graphics.PaletteSwatchAssert assertThat(
           androidx.palette.graphics.Palette.Swatch actual) {
-    return new org.assertj.androidx.palette.v7.api.graphics.PaletteSwatchAssert(actual);
+    return new org.assertj.androidx.palette.api.graphics.PaletteSwatchAssert(actual);
   }
 
   private Assertions() {
