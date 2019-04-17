@@ -1,8 +1,9 @@
 package org.assertj.android.palette.v7.api.graphics;
 
-import android.support.v7.graphics.Palette;
 
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.palette.graphics.Palette;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

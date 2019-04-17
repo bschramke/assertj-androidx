@@ -7,12 +7,12 @@ package org.assertj.android.palette.v7.api;
 @SuppressWarnings("deprecation")
 public final class Assertions {
   public static org.assertj.android.palette.v7.api.graphics.PaletteAssert assertThat(
-      android.support.v7.graphics.Palette actual) {
+          androidx.palette.graphics.Palette actual) {
     return new org.assertj.android.palette.v7.api.graphics.PaletteAssert(actual);
   }
 
   public static org.assertj.android.palette.v7.api.graphics.PaletteSwatchAssert assertThat(
-      android.support.v7.graphics.Palette.Swatch actual) {
+          androidx.palette.graphics.Palette.Swatch actual) {
     return new org.assertj.android.palette.v7.api.graphics.PaletteSwatchAssert(actual);
   }
 

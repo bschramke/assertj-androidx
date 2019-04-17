@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-  compile project(':assertj-android')
-  compile rootProject.ext.supportPalette
+  implementation project(':assertj-android')
+  implementation rootProject.ext.androidxPalette
 }
 
 android {
