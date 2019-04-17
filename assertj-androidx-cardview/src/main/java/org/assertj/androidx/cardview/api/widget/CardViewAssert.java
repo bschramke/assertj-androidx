@@ -1,4 +1,4 @@
-package org.assertj.androidx.cardview.v7.api.widget;
+package org.assertj.androidx.cardview.api.widget;
 
 
 import org.assertj.androidx.api.view.AbstractViewGroupAssert;
