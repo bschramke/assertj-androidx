@@ -1,14 +1,14 @@
 // Copyright 2015 Square, Inc.
 //
 // This class is generated. Do not modify directly!
-package org.assertj.androidx.gridlayout.v7.api;
+package org.assertj.androidx.gridlayout.api;
 
 /** Assertions for testing Android classes. */
 @SuppressWarnings("deprecation")
 public final class Assertions {
-  public static org.assertj.androidx.gridlayout.v7.api.widget.GridLayoutAssert assertThat(
+  public static GridLayoutAssert assertThat(
           androidx.gridlayout.widget.GridLayout actual) {
-    return new org.assertj.androidx.gridlayout.v7.api.widget.GridLayoutAssert(actual);
+    return new GridLayoutAssert(actual);
   }
 
   private Assertions() {
