@@ -1,6 +1,7 @@
 package org.assertj.android.design.api.widget;
 
-import android.support.design.widget.TextInputLayout;
+import com.google.android.material.textfield.TextInputLayout;
+
 import org.assertj.android.api.widget.AbstractLinearLayoutAssert;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,7 +1,9 @@
 package org.assertj.android.design.api.widget;
 
 import android.graphics.drawable.Drawable;
-import android.support.design.widget.NavigationView;
+
+import com.google.android.material.navigation.NavigationView;
+
 import org.assertj.android.api.widget.AbstractFrameLayoutAssert;
 
 import static org.assertj.core.api.Assertions.assertThat;

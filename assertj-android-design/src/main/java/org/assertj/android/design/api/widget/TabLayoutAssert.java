@@ -1,6 +1,7 @@
 package org.assertj.android.design.api.widget;
 
-import android.support.design.widget.TabLayout;
+import com.google.android.material.tabs.TabLayout;
+
 import org.assertj.android.api.widget.AbstractHorizontalScrollViewAssert;
 
 import static org.assertj.android.internal.BitmaskUtils.buildNamedValueString;

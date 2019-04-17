@@ -1,7 +1,9 @@
 package org.assertj.android.design.api.widget;
 
-import android.support.design.widget.Snackbar;
 import android.view.View;
+
+import com.google.android.material.snackbar.Snackbar;
+
 import org.assertj.core.api.AbstractAssert;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,7 +1,9 @@
 package org.assertj.android.design.api.widget;
 
 import android.graphics.drawable.Drawable;
-import android.support.design.widget.TabLayout;
+
+import com.google.android.material.tabs.TabLayout;
+
 import org.assertj.core.api.AbstractAssert;
 
 import static org.assertj.core.api.Assertions.assertThat;

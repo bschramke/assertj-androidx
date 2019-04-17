@@ -7,27 +7,27 @@ package org.assertj.android.design.api;
 @SuppressWarnings("deprecation")
 public final class Assertions {
   public static org.assertj.android.design.api.widget.NavigationViewAssert assertThat(
-      android.support.design.widget.NavigationView actual) {
+          com.google.android.material.navigation.NavigationView actual) {
     return new org.assertj.android.design.api.widget.NavigationViewAssert(actual);
   }
 
   public static org.assertj.android.design.api.widget.SnackbarAssert assertThat(
-      android.support.design.widget.Snackbar actual) {
+          com.google.android.material.snackbar.Snackbar actual) {
     return new org.assertj.android.design.api.widget.SnackbarAssert(actual);
   }
 
   public static org.assertj.android.design.api.widget.TabAssert assertThat(
-      android.support.design.widget.TabLayout.Tab actual) {
+          com.google.android.material.tabs.TabLayout.Tab actual) {
     return new org.assertj.android.design.api.widget.TabAssert(actual);
   }
 
   public static org.assertj.android.design.api.widget.TabLayoutAssert assertThat(
-      android.support.design.widget.TabLayout actual) {
+          com.google.android.material.tabs.TabLayout actual) {
     return new org.assertj.android.design.api.widget.TabLayoutAssert(actual);
   }
 
   public static org.assertj.android.design.api.widget.TextInputLayoutAssert assertThat(
-      android.support.design.widget.TextInputLayout actual) {
+          com.google.android.material.textfield.TextInputLayout actual) {
     return new org.assertj.android.design.api.widget.TextInputLayoutAssert(actual);
   }
 
