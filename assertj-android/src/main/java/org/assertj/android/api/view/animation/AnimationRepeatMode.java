@@ -1,6 +1,6 @@
 package org.assertj.android.api.view.animation;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.view.animation.Animation;
 import java.lang.annotation.Retention;
 

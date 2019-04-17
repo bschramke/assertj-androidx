@@ -1,6 +1,6 @@
 package org.assertj.android.api.widget;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.widget.GridView;
 import java.lang.annotation.Retention;
 

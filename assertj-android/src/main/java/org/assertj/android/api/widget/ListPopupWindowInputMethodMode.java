@@ -1,6 +1,6 @@
 package org.assertj.android.api.widget;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.widget.ListPopupWindow;
 import java.lang.annotation.Retention;
 

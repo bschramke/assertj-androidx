@@ -1,6 +1,6 @@
 package org.assertj.android.api.telephony;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.telephony.TelephonyManager;
 import java.lang.annotation.Retention;
 

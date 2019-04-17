@@ -1,7 +1,7 @@
 package org.assertj.android.api.content;
 
 import android.content.Intent;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import java.lang.annotation.Retention;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;

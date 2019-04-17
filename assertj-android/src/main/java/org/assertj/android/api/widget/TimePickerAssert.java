@@ -2,7 +2,7 @@
 package org.assertj.android.api.widget;
 
 import android.annotation.TargetApi;
-import android.support.annotation.IntRange;
+import androidx.annotation.IntRange;
 import android.widget.TimePicker;
 
 import static android.os.Build.VERSION_CODES.M;
