@@ -1,4 +1,4 @@
-rootProject.name = 'assertj-android-root'
+rootProject.name = 'assertj-androidx-root'
 
 include ':assertj-android'
 include ':assertj-android-appcompat-v7'
