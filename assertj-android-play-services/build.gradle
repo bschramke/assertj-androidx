@@ -2,7 +2,9 @@ apply plugin: 'com.android.library'
 
 dependencies {
   implementation project(':assertj-androidx')
-  implementation rootProject.ext.playServices
+  implementation(rootProject.ext.playServices) {
+    exclude group: "com.android.support"
+  }
 }
 
 android {
