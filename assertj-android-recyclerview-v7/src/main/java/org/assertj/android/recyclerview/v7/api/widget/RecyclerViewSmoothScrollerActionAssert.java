@@ -1,6 +1,6 @@
 package org.assertj.android.recyclerview.v7.api.widget;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.animation.Interpolator;
 import org.assertj.core.api.AbstractAssert;
 

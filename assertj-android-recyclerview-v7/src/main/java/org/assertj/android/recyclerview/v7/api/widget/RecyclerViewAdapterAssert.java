@@ -1,9 +1,10 @@
 package org.assertj.android.recyclerview.v7.api.widget;
 
-import android.support.v7.widget.RecyclerView;
 import org.assertj.core.api.AbstractAssert;
 
-import static android.support.v7.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView;
+
+import static androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link RecyclerView.Adapter} instances. */
