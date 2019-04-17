@@ -1,16 +1,17 @@
 package org.assertj.android.gridlayout.v7.api.widget;
 
-import android.support.v7.widget.GridLayout;
 import org.assertj.android.api.view.AbstractViewGroupAssert;
 
-import static android.support.v7.widget.GridLayout.ALIGN_BOUNDS;
-import static android.support.v7.widget.GridLayout.ALIGN_MARGINS;
-import static android.support.v7.widget.GridLayout.HORIZONTAL;
-import static android.support.v7.widget.GridLayout.VERTICAL;
+import androidx.gridlayout.widget.GridLayout;
+
+import static androidx.gridlayout.widget.GridLayout.ALIGN_BOUNDS;
+import static androidx.gridlayout.widget.GridLayout.ALIGN_MARGINS;
+import static androidx.gridlayout.widget.GridLayout.HORIZONTAL;
+import static androidx.gridlayout.widget.GridLayout.VERTICAL;
 import static org.assertj.android.internal.BitmaskUtils.buildNamedValueString;
 import static org.assertj.core.api.Assertions.assertThat;
 
-/** Assertions for {@link android.support.v7.widget.GridLayout} instances. */
+/** Assertions for {@link androidx.gridlayout.widget.GridLayout} instances. */
 public class GridLayoutAssert extends AbstractViewGroupAssert<GridLayoutAssert, GridLayout> {
   public GridLayoutAssert(GridLayout actual) {
     super(actual, GridLayoutAssert.class);

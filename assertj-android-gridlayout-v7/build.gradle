@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-  compile project(':assertj-android')
-  compile rootProject.ext.supportGridLayout
+  implementation project(':assertj-android')
+  implementation rootProject.ext.androidxGridLayout
 }
 
 android {

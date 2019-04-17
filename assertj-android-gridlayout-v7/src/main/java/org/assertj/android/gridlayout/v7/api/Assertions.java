@@ -7,7 +7,7 @@ package org.assertj.android.gridlayout.v7.api;
 @SuppressWarnings("deprecation")
 public final class Assertions {
   public static org.assertj.android.gridlayout.v7.api.widget.GridLayoutAssert assertThat(
-      android.support.v7.widget.GridLayout actual) {
+          androidx.gridlayout.widget.GridLayout actual) {
     return new org.assertj.android.gridlayout.v7.api.widget.GridLayoutAssert(actual);
   }
 
