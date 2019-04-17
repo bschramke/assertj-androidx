@@ -1,4 +1,4 @@
-package org.assertj.androidx.recyclerview.v7.api.widget;
+package org.assertj.androidx.recyclerview.api.widget;
 
 import org.assertj.core.api.AbstractAssert;
 
