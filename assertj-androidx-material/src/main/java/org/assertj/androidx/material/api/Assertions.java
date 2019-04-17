@@ -3,32 +3,38 @@
 // This class is generated. Do not modify directly!
 package org.assertj.androidx.material.api;
 
+import org.assertj.androidx.material.api.navigation.NavigationViewAssert;
+import org.assertj.androidx.material.api.snackbar.SnackbarAssert;
+import org.assertj.androidx.material.api.tabs.TabAssert;
+import org.assertj.androidx.material.api.tabs.TabLayoutAssert;
+import org.assertj.androidx.material.api.textfield.TextInputLayoutAssert;
+
 /** Assertions for testing Android classes. */
 @SuppressWarnings("deprecation")
 public final class Assertions {
-  public static org.assertj.androidx.material.api.widget.NavigationViewAssert assertThat(
+  public static NavigationViewAssert assertThat(
           com.google.android.material.navigation.NavigationView actual) {
-    return new org.assertj.androidx.material.api.widget.NavigationViewAssert(actual);
+    return new NavigationViewAssert(actual);
   }
 
-  public static org.assertj.androidx.material.api.widget.SnackbarAssert assertThat(
+  public static SnackbarAssert assertThat(
           com.google.android.material.snackbar.Snackbar actual) {
-    return new org.assertj.androidx.material.api.widget.SnackbarAssert(actual);
+    return new SnackbarAssert(actual);
   }
 
-  public static org.assertj.androidx.material.api.widget.TabAssert assertThat(
+  public static TabAssert assertThat(
           com.google.android.material.tabs.TabLayout.Tab actual) {
-    return new org.assertj.androidx.material.api.widget.TabAssert(actual);
+    return new TabAssert(actual);
   }
 
-  public static org.assertj.androidx.material.api.widget.TabLayoutAssert assertThat(
+  public static TabLayoutAssert assertThat(
           com.google.android.material.tabs.TabLayout actual) {
-    return new org.assertj.androidx.material.api.widget.TabLayoutAssert(actual);
+    return new TabLayoutAssert(actual);
   }
 
-  public static org.assertj.androidx.material.api.widget.TextInputLayoutAssert assertThat(
+  public static TextInputLayoutAssert assertThat(
           com.google.android.material.textfield.TextInputLayout actual) {
-    return new org.assertj.androidx.material.api.widget.TextInputLayoutAssert(actual);
+    return new TextInputLayoutAssert(actual);
   }
 
   private Assertions() {

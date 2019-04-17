@@ -1,4 +1,4 @@
-package org.assertj.androidx.material.api.widget;
+package org.assertj.androidx.material.api.navigation;
 
 import android.graphics.drawable.Drawable;
 

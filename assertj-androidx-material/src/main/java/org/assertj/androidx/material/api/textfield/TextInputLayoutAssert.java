@@ -1,4 +1,4 @@
-package org.assertj.androidx.material.api.widget;
+package org.assertj.androidx.material.api.textfield;
 
 import com.google.android.material.textfield.TextInputLayout;
 

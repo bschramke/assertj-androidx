@@ -1,4 +1,4 @@
-package org.assertj.androidx.material.api.widget;
+package org.assertj.androidx.material.api.snackbar;
 
 import android.view.View;
 

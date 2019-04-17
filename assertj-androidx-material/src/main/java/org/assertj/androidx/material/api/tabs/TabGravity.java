@@ -1,4 +1,4 @@
-package org.assertj.androidx.material.api.widget;
+package org.assertj.androidx.material.api.tabs;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -9,9 +9,9 @@ import androidx.annotation.IntDef;
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
 @IntDef({
-    TabLayout.MODE_FIXED,
-    TabLayout.MODE_SCROLLABLE
+    TabLayout.GRAVITY_CENTER,
+    TabLayout.GRAVITY_FILL
 })
 @Retention(SOURCE)
-@interface TabMode {
+@interface TabGravity {
 }
