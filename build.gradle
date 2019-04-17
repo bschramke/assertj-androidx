@@ -2,7 +2,6 @@ subprojects {
   buildscript {
     repositories {
       google()
-      mavenCentral()
       jcenter()
     }
     dependencies {
@@ -12,7 +11,7 @@ subprojects {
 
   repositories {
     google()
-    mavenCentral()
+    jcenter()
   }
 
   group = GROUP
@@ -22,7 +21,7 @@ subprojects {
 ext {
   minSdkVersion = 14
   compileSdkVersion = 28
-  buildToolsVersion = '28.0.2'
+  buildToolsVersion = '28.0.3'
 
   assertj = 'org.assertj:assertj-core:1.7.1'
   supportAnnotations = 'com.android.support:support-annotations:28.0.0'
@@ -47,7 +46,7 @@ subprojects {
       task.from variant.javaCompile.destinationDir
       task.destinationDir = project.file("${project.buildDir}/outputs/jar")
       task.archiveName = "${project.name}-${variant.baseName}.jar"
-      artifacts.add('archives', task);
+      artifacts.add('archives', task)
     }
   }
 }
