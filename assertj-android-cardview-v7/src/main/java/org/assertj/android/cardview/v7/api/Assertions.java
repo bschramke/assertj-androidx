@@ -7,7 +7,7 @@ package org.assertj.android.cardview.v7.api;
 @SuppressWarnings("deprecation")
 public final class Assertions {
   public static org.assertj.android.cardview.v7.api.widget.CardViewAssert assertThat(
-      android.support.v7.widget.CardView actual) {
+          androidx.cardview.widget.CardView actual) {
     return new org.assertj.android.cardview.v7.api.widget.CardViewAssert(actual);
   }
 

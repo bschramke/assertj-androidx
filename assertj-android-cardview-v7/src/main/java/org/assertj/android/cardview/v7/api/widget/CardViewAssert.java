@@ -1,8 +1,9 @@
 package org.assertj.android.cardview.v7.api.widget;
 
-import android.support.v7.widget.CardView;
 
 import org.assertj.android.api.view.AbstractViewGroupAssert;
+
+import androidx.cardview.widget.CardView;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
