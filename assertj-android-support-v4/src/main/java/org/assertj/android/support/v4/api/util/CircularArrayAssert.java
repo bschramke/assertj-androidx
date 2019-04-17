@@ -1,7 +1,8 @@
 package org.assertj.android.support.v4.api.util;
 
-import android.support.v4.util.CircularArray;
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.collection.CircularArray;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,9 +1,9 @@
 // Copyright 2013 Square, Inc.
 package org.assertj.android.support.v4.api.widget;
 
-import android.support.v4.widget.SimpleCursorAdapter;
+import androidx.cursoradapter.widget.SimpleCursorAdapter;
 
-import static android.support.v4.widget.SimpleCursorAdapter.CursorToStringConverter;
+import static androidx.cursoradapter.widget.SimpleCursorAdapter.CursorToStringConverter;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link SimpleCursorAdapter} instances. */

@@ -2,7 +2,7 @@
 package org.assertj.android.support.v4.api.content;
 
 import android.net.Uri;
-import android.support.v4.content.CursorLoader;
+import androidx.loader.content.CursorLoader;
 
 import java.util.Arrays;
 

@@ -1,7 +1,7 @@
 // Copyright 2013 Square, Inc.
 package org.assertj.android.support.v4.api.app;
 
-import android.support.v4.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

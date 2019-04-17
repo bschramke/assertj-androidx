@@ -1,7 +1,7 @@
 // Copyright 2013 Square, Inc.
 package org.assertj.android.support.v4.api.content;
 
-import android.support.v4.content.Loader;
+import androidx.loader.content.Loader;
 
 /**
  * Assertions for {@link Loader} instances.

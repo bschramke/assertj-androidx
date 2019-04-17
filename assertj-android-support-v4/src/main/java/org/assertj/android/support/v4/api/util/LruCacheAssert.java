@@ -1,8 +1,9 @@
 // Copyright 2013 Square, Inc.
 package org.assertj.android.support.v4.api.util;
 
-import android.support.v4.util.LruCache;
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.collection.LruCache;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,8 +1,10 @@
 package org.assertj.android.support.v4.api.media;
 
+
 import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.session.MediaControllerCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
+
 import org.assertj.core.api.AbstractAssert;
 
 import static org.assertj.android.internal.BitmaskUtils.buildBitMaskString;

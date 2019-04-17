@@ -1,7 +1,8 @@
 package org.assertj.android.support.v4.api.widget;
 
-import android.support.v4.widget.SlidingPaneLayout;
 import org.assertj.android.api.view.AbstractViewGroupAssert;
+
+import androidx.slidingpanelayout.widget.SlidingPaneLayout;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

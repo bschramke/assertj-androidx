@@ -1,8 +1,9 @@
 package org.assertj.android.support.v4.api.util;
 
-import android.support.v4.util.AtomicFile;
 import java.io.File;
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.core.util.AtomicFile;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

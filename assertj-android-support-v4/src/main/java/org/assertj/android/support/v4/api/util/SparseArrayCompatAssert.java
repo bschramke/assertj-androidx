@@ -1,7 +1,8 @@
 package org.assertj.android.support.v4.api.util;
 
-import android.support.v4.util.SparseArrayCompat;
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.collection.SparseArrayCompat;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

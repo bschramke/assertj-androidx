@@ -1,8 +1,9 @@
 // Copyright 2013 Square, Inc.
 package org.assertj.android.support.v4.api.app;
 
-import android.support.v4.app.LoaderManager;
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.loader.app.LoaderManager;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

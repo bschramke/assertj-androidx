@@ -1,7 +1,7 @@
 // Copyright 2013 Square, Inc.
 package org.assertj.android.support.v4.api.widget;
 
-import android.support.v4.widget.CursorAdapter;
+import androidx.cursoradapter.widget.CursorAdapter;
 
 /**
  * Assertions for {@link CursorAdapter} instances.

@@ -2,9 +2,10 @@
 package org.assertj.android.support.v4.api.widget;
 
 import android.database.Cursor;
-import android.support.v4.widget.CursorAdapter;
 import android.widget.Filter;
 import org.assertj.android.api.widget.AbstractListAdapterAssert;
+
+import androidx.cursoradapter.widget.CursorAdapter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

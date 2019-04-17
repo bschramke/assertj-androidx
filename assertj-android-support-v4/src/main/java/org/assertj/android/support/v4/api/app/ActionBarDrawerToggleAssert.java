@@ -1,7 +1,8 @@
 package org.assertj.android.support.v4.api.app;
 
-import android.support.v4.app.ActionBarDrawerToggle;
 import org.assertj.core.api.AbstractAssert;
+
+import androidx.legacy.app.ActionBarDrawerToggle;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
