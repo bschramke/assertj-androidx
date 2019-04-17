@@ -34,6 +34,16 @@ ext {
   supportPalette = 'com.android.support:palette-v7:28.0.0'
   supportRecyclerView = 'com.android.support:recyclerview-v7:28.0.0'
 
+  androidxAnnotation = 'androidx.annotation:annotation:1.0.0'
+  androidxSupportV4 = 'androidx.legacy:legacy-support-v4:1.0.0'
+  androidxAppCompat = 'androidx.appcompat:appcompat:1.0.0'
+  androidxCardView = 'androidx.cardview:cardview:1.0.0'
+  androidxMaterial = 'com.google.android.material:material:1.0.0-rc01'
+  androidxGridLayout = 'androidx.gridlayout:gridlayout:1.0.0'
+  androidxMediaRouter = 'androidx.mediarouter:mediarouter:1.0.0'
+  androidxPalette = 'androidx.palette:palette:1.0.0'
+  androidxRecyclerView = 'androidx.recyclerview:recyclerview:1.0.0'
+
   playServices = 'com.google.android.gms:play-services:7.5.0'
 }
 
