@@ -1,6 +1,6 @@
 package org.assertj.android.mediarouter.v7.api.media;
 
-import android.support.v7.media.RemotePlaybackClient;
+import androidx.mediarouter.media.RemotePlaybackClient;
 import org.assertj.core.api.AbstractAssert;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,7 +1,7 @@
 package org.assertj.android.mediarouter.v7.api.media;
 
-import android.support.annotation.IntDef;
-import android.support.v7.media.MediaItemStatus;
+import androidx.annotation.IntDef;
+import androidx.mediarouter.media.MediaItemStatus;
 import java.lang.annotation.Retention;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;

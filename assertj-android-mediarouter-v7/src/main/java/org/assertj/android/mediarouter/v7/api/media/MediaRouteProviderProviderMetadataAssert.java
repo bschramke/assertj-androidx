@@ -1,7 +1,7 @@
 package org.assertj.android.mediarouter.v7.api.media;
 
 import android.content.ComponentName;
-import android.support.v7.media.MediaRouteProvider;
+import androidx.mediarouter.media.MediaRouteProvider;
 import org.assertj.core.api.AbstractAssert;
 
 import static org.assertj.core.api.Assertions.assertThat;

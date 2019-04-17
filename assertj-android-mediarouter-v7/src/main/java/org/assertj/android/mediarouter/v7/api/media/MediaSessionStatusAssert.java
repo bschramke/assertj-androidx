@@ -1,11 +1,11 @@
 package org.assertj.android.mediarouter.v7.api.media;
 
-import android.support.v7.media.MediaSessionStatus;
+import androidx.mediarouter.media.MediaSessionStatus;
 import org.assertj.core.api.AbstractAssert;
 
-import static android.support.v7.media.MediaSessionStatus.SESSION_STATE_ACTIVE;
-import static android.support.v7.media.MediaSessionStatus.SESSION_STATE_ENDED;
-import static android.support.v7.media.MediaSessionStatus.SESSION_STATE_INVALIDATED;
+import static androidx.mediarouter.media.MediaSessionStatus.SESSION_STATE_ACTIVE;
+import static androidx.mediarouter.media.MediaSessionStatus.SESSION_STATE_ENDED;
+import static androidx.mediarouter.media.MediaSessionStatus.SESSION_STATE_INVALIDATED;
 import static org.assertj.android.internal.BitmaskUtils.buildNamedValueString;
 import static org.assertj.core.api.Assertions.assertThat;
 
